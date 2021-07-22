@@ -20,8 +20,18 @@
       x-init="quote = await (await fetch('/api/get-daily-quote')).json()"
     >
       <span class="quote__melon">🍉</span>
-      <p class="quote__text" x-text="quote.text"></p>
-      <p class="quote__author" x-text="quote.author"></p>
+      <p
+        class="quote__text"
+        x-text="quote.text"
+        x-show="quote.text"
+        x-transition
+      ></p>
+      <p
+        class="quote__author"
+        x-text="quote.author"
+        x-show="quote.author"
+        x-transition
+      ></p>
     </div>
     <script type="module" src="/main.js"></script>
   </body>
