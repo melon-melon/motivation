@@ -1,0 +1,9 @@
+:root {
+  --background: #F9FBFA;
+  --text: #101913;
+}
+
+body {
+  background: --background;
+  color: --text;
+}

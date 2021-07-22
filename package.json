@@ -1,0 +1,17 @@
+{
+  "name": "motivation",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite src",
+    "build": "vite build src",
+    "serve": "vite preview src"
+  },
+  "devDependencies": {
+    "vite": "^2.4.3"
+  },
+  "dependencies": {
+    "alpinejs": "^3.2.2",
+    "node-fetch": "^2.6.1",
+    "normalize.css": "^8.0.1"
+  }
+}
