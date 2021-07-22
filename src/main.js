@@ -1,3 +1,6 @@
 import 'normalize.css'
 import './style/style.css'
-import 'alpinejs'
+import Alpine from 'alpinejs'
+
+window.Alpine = Alpine
+Alpine.start()

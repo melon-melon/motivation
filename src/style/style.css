@@ -1,9 +1,31 @@
 :root {
-  --background: #F9FBFA;
+  --background: #f9fbfa;
   --text: #101913;
+}
+
+html {
+  font-size: clamp(1rem, 3vw, 2rem);
 }
 
 body {
   background: --background;
   color: --text;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.quote .quote__melon {
+  font-size: 8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.quote .quote__text {
+  font-style: italic;
 }

@@ -14,6 +14,8 @@ exports.handler = async function (event, context) {
   const quoteOfTheDay =
     allQuotes[Math.floor(differenceInDays % allQuotes.length)]
 
+  console.log(quoteOfTheDay)
+
   return {
     statusCode: 200,
     body: JSON.stringify(quoteOfTheDay),
